@@ -1,4 +1,4 @@
-import cv2
+1import cv2
 import numpy as np
 import mss
 import time
@@ -18,7 +18,7 @@ last_detection_time = 0
 detection_cooldown = 0.5  # Seconds between detections for performance
 
 # Load YOLO model
-model_path = "/Users/charon/Builds/sign-language-detection/runs/detect/train3/weights/best.pt"
+model_path = "C:\\Users\\gvela\\PycharmProjects\\sign-language-detection\\weights\\best.pt"
 try:
     model = YOLO(model_path)
     print(f"[INFO] YOLO model loaded from {model_path}")
