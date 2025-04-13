@@ -4,6 +4,12 @@
 
 This project is a real-time sign language translator built to work with Meta AI glasses. The application allows wearers to hear sign language translation readouts in real-time as they interact with signers.
 
+## Demo Video
+
+[![Sign Language Translation with Meta AI Glasses](https://img.youtube.com/vi/JgP18E60tOE/0.jpg)](https://www.youtube.com/watch?v=JgP18E60tOE)
+
+Watch our real-time sign language translator in action! The video shows how the system captures sign language via Meta AI glasses and provides immediate audio translations.
+
 ## Important Note
 
 This project was developed during a time-constrained hackathon environment and completed in under 10 hours. As a result, both the code quality and product polish are not production-ready. The current implementation:
@@ -95,3 +101,4 @@ The application works through the following process:
 4. **Mobile App Processing**: The Expo mobile app connects to this WebSocket server and receives the translations in real-time (less than 50ms latency).
 
 5. **Audio Feedback**: The mobile app converts the text translations to speech, allowing the wearer to "hear" the sign language.
+

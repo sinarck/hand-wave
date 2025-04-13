@@ -18,7 +18,7 @@ last_detection_time = 0
 detection_cooldown = 0.5  # Seconds between detections for performance
 
 # Load YOLO model
-model_path = "C:\\Users\\gvela\\PycharmProjects\\sign-language-detection\\weights\\best.pt"
+model_path = "/Users/charon/Builds/SignLanguage/weights/best.pt"
 try:
     model = YOLO(model_path)
     print(f"[INFO] YOLO model loaded from {model_path}")
