@@ -18,7 +18,7 @@ last_detection_time = 0
 detection_cooldown = 0.5  # Seconds between detections for performance
 
 # Load YOLO model
-model_path = "/Users/charon/Builds/sign-language-detection/runs/detect/train3/weights/best.pt"
+model_path = "C:\\Users\\shive\\PycharmProjects\\SignLanguageGlasses\\sign-language-detection\\weights\\best.pt"
 try:
     model = YOLO(model_path)
     print(f"[INFO] YOLO model loaded from {model_path}")
@@ -29,9 +29,9 @@ except Exception as e:
 # Instagram stream area coordinates
 monitor = {
     "top": 70,
-    "left": 260,
-    "width": 480,
-    "height": 780
+    "left": 360,         # Adjust only if the video is not perfectly aligned
+    "width": 480,        # Reduced from 480 to exclude the chat area
+    "height": 1150
 }
 
 

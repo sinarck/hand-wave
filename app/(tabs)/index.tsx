@@ -17,7 +17,7 @@ export default function HomeScreen() {
   // Connect to WebSocket server
   useEffect(() => {
     // Replace with your computer's IP address
-    const serverUrl = "ws://[replace here]:8765"; // Use your actual IP address
+    const serverUrl = "ws://192.168.1.230:8765"; // Use your actual IP address
 
     // Create WebSocket connection
     ws.current = new WebSocket(serverUrl);
@@ -156,4 +156,3 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
 });
-
